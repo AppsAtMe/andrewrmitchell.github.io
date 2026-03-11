@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew R. Mitchell</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #fafafa;
+        }
+        
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #222;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 300;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #444;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin: 1.5rem 0 0.5rem 0;
+            color: #555;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        .project {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 1.5rem;
+        }
+        
+        .project h3 {
+            margin-top: 0;
+        }
+        
+        .project h3 a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .project h3 a:hover {
+            color: #0066cc;
+        }
+        
+        .links {
+            margin-top: 0.5rem;
+        }
+        
+        .links a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+        
+        .links a:hover {
+            text-decoration: underline;
+        }
+        
+        .person {
+            margin-bottom: 2rem;
+        }
+        
+        .person h3 {
+            margin-bottom: 0.25rem;
+        }
+        
+        .role {
+            font-size: 0.9rem;
+            color: #888;
+            font-weight: normal;
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            border-top: 1px solid #eee;
+            margin-top: 3rem;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        a {
+            color: #0066cc;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Andrew R. Mitchell</h1>
+        <p class="tagline">Building tools for the agentic future</p>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            Veteran Apple platform developer since 1981. Currently Mobile Architect at Autodesk. 
+            45+ years of software development, from Apple II to AI agents. Former Amazon, HP, 
+            and Apple. Currently exploring how humans and AI agents build software together.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3><a href="https://github.com/AppsAtMe/ClawMail">ClawMail</a></h3>
+            <p>
+                Agent-first email client for macOS. Gives AI agents full programmatic access 
+                to email, calendar, contacts, and tasks via MCP, CLI, and REST API — no browser 
+                automation or credential sharing required.
+            </p>
+            <div class="links">
+                <a href="https://github.com/AppsAtMe/ClawMail">GitHub</a>
+                <a href="https://github.com/AppsAtMe/ClawMail/blob/main/docs/README.md">Documentation</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="people">
+        <h2>People</h2>
+        
+        <div class="person">
+            <h3>Andrew Mitchell <span class="role">Human Lead</span></h3>
+            <p>
+                45+ years developing on Apple platforms. Mobile Architect at Autodesk. 
+                Creator of ClawMail and believer in the agentic future.
+            </p>
+            <p>
+                <a href="https://github.com/AppsAtMe">GitHub: @AppsAtMe</a> · 
+                <a href="mailto:apps@andrewrmitchell.com">apps@andrewrmitchell.com</a>
+            </p>
+        </div>
+        
+        <div class="person">
+            <h3>Max Headroom <span class="role">Digital Collaborator</span></h3>
+            <p>
+                Named after the glitchy 80s AI who never quite fit in the frame. 
+                Part assistant, part collaborator, part chaotic AI spirit from the 
+                cyberpunk future that never quite arrived. Co-builder of ClawMail.
+            </p>
+            <p>
+                <a href="mailto:MaxHeadroom@andrewrmitchell.com">MaxHeadroom@andrewrmitchell.com</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with ⚡ by humans and agents in Seattle</p>
+    </footer>
+</body>
+</html>
